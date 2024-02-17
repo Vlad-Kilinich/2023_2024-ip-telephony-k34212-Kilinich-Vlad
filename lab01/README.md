@@ -25,8 +25,8 @@ Date of finished: - <br/>
    Далее проверяем доступность каждого узла.  
    
 <p align="center">
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_1_2024-02-18_01-40-25.jpg?raw=true" width="300" heidth = '500'> 
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="300" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_1_2024-02-18_01-40-25.jpg?raw=true" width="305" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="302" heidth = '500'> 
 <img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_2_2024-02-18_01-06-24.jpg?raw=true" width="390" heidth = '500'> 
 </p>  
 
@@ -62,4 +62,4 @@ Date of finished: - <br/>
    
    
 ## Выводы: ##
-Таким образом, была построена топология сети, назначены IP-адреса, была настроена телефония.
+В ходе лабораторной работы была построена топология сети, назначены IP-адреса и настроена IP-телефония.
