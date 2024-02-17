@@ -14,19 +14,19 @@ Date of finished: - <br/>
    Изучить рабочую среду Cisco Packet Tracer, ознакомить- ся с интерфейсами основных устройств, типами кабелей, научиться собирать топологию. Изучить построение сети IP-телефонии с помощью маршрутизатора, коммутатора и IP телефонов Cisco 7960 в среде Packet tracer
 
 ## Ход работы:
-   В процессе выполнения лабораторной работы были выпонены следующие шаги:
+   Первым делом была построена топология сети, которая включает компьютеры, коммутаторы.
    
-   Построена топология сети, которая включает компьютеры, коммутаторы.
-   
-   [<img src="https://user-images.githubusercontent.com/58363643/222966300-421deea6-e36d-4a76-9182-e52ebebffc13.png" width="300"/>](https://user-images.githubusercontent.com/58363643/222966300-421deea6-e36d-4a76-9182-e52ebebffc13.png)
-  
-   Каждому компьютеру были назначены статитические IP-адреса 192.168.1.1-192.168.1.7/24.
-   
-   [<img src="https://user-images.githubusercontent.com/58363643/222966553-f46e0904-b633-4b35-88ce-e8924a0d7f21.png" width="300"/>](https://user-images.githubusercontent.com/58363643/222966553-f46e0904-b633-4b35-88ce-e8924a0d7f21.png)
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_5_2024-02-18_01-06-24.jpg?raw=true" width="800" heidth = '700'>  
+</p> 
 
-   Была проверена достижимость каждого узла.
+   Каждому компьютеру были назначены статитические IP-адреса 192.168.10.1-192.168.10.7/24.
+   Далее проверяем доступность каждого узла.
    
-   [<img src="https://user-images.githubusercontent.com/58363643/222966629-02dd513c-4a1e-45de-881e-17c3e3ec2cec.png" width="300"/>](https://user-images.githubusercontent.com/58363643/222966629-02dd513c-4a1e-45de-881e-17c3e3ec2cec.png)
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_3_2024-02-18_01-07-12.jpg?raw=true" width="300" heidth = '400'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="300" heidth = '400'> 
+</p> 
    
    Была простроена следующая топология.
    
