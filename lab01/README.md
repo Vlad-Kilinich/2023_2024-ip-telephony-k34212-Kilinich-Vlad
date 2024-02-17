@@ -18,16 +18,16 @@ Date of finished: - <br/>
    Первым делом была построена топология сети, которая включает компьютеры, коммутаторы.
    
 <p align="center">
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_5_2024-02-18_01-06-24.jpg?raw=true" width="800" heidth = '700'>  
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_5_2024-02-18_01-06-24.jpg?raw=true" width="600" heidth = '500'>  
 </p> 
 
    Каждому компьютеру были назначены статитические IP-адреса 192.168.10.1-192.168.10.7/24.
    Далее проверяем доступность каждого узла.  
    
 <p align="center">
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_1_2024-02-18_01-40-25.jpg?raw=true" width="320" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_1_2024-02-18_01-40-25.jpg?raw=true" width="300" heidth = '500'> 
 <img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="300" heidth = '500'> 
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_2_2024-02-18_01-06-24.jpg?raw=true" width="380" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_2_2024-02-18_01-06-24.jpg?raw=true" width="390" heidth = '500'> 
 </p> 
 ## Часть 2.  
    Была простроена следующая топология.
@@ -46,16 +46,18 @@ Date of finished: - <br/>
 <img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_13_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
 </p> 
   
-   Настроен vlan на коммутаторе.
+   Далее настроиваем vlan на коммутаторе.
    
-   [<img src="https://user-images.githubusercontent.com/58363643/222966960-d5205933-d7d4-4b0d-ae65-3381abc971b7.png" width="400"/>](https://user-images.githubusercontent.com/58363643/222966960-d5205933-d7d4-4b0d-ae65-3381abc971b7.png)
+   <p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_14_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
+   </p>
 
-   Каждому телефону был назначен номер. Далее проверена работа, настроенной телефонии.
+   Далее подключаем телефоны к питанию и пытаемся дозвониться друг другу.
    
-   [<img src="https://user-images.githubusercontent.com/58363643/222967133-10045e42-caec-4f85-b907-71cb8e6e7011.png" width="100"/>](https://user-images.githubusercontent.com/58363643/222967133-10045e42-caec-4f85-b907-71cb8e6e7011.png)
+   <p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_11_2024-02-18_01-06-24.jpg?raw=true"> 
+   </p>
   
-  [<img src="https://user-images.githubusercontent.com/58363643/222967148-97f3da8a-00b8-4ce8-b66c-9dfb68ac7e4d.png" width="400"/>](https://user-images.githubusercontent.com/58363643/222967148-97f3da8a-00b8-4ce8-b66c-9dfb68ac7e4d.png)
-
    
    
 ## Выводы: ##
