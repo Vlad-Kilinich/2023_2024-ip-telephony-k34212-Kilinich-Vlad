@@ -8,12 +8,13 @@ Lab: Lab1 <br/>
 Date of create: 18.02.2024 <br/>
 Date of finished: - <br/>
 
-# Лабораторная работа №1 "Базовая настройка ip-телефонов в среде Сisco packet tracer"
+# Лабораторная работа №1 "Базовая настройка ip-телефонов в среде Сisco packet tracer"  
 
-## Цель работы:
+## Цель работы:  
    Изучить рабочую среду Cisco Packet Tracer, ознакомить- ся с интерфейсами основных устройств, типами кабелей, научиться собирать топологию. Изучить построение сети IP-телефонии с помощью маршрутизатора, коммутатора и IP телефонов Cisco 7960 в среде Packet tracer
 
-## Ход работы:
+## Ход работы:  
+## Часть 1.  
    Первым делом была построена топология сети, которая включает компьютеры, коммутаторы.
    
 <p align="center">
@@ -21,22 +22,29 @@ Date of finished: - <br/>
 </p> 
 
    Каждому компьютеру были назначены статитические IP-адреса 192.168.10.1-192.168.10.7/24.
-   Далее проверяем доступность каждого узла.
+   Далее проверяем доступность каждого узла.  
    
 <p align="center">
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_1_2024-02-18_01-40-25.jpg?raw=true" width="350" heidth = '500'> 
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="350" heidth = '500'> 
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_2_2024-02-18_01-06-24.jpg?raw=true" width="350" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_1_2024-02-18_01-40-25.jpg?raw=true" width="320" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="320" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_2_2024-02-18_01-06-24.jpg?raw=true" width="320" heidth = '500'> 
 </p> 
-   
+## Часть 2.  
    Была простроена следующая топология.
    
-   [<img src="https://user-images.githubusercontent.com/58363643/222966714-38d13b4c-c0b9-4da8-9e9c-d740e25e8b67.png" width="300"/>](https://user-images.githubusercontent.com/58363643/222966714-38d13b4c-c0b9-4da8-9e9c-d740e25e8b67.png)
+   <p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_9_2024-02-18_01-06-24.jpg?raw=true" width="500" heidth = '300'> 
+   </p>
    
-   На маршрутизаторе настроен интерфейс Fa0/1, настроен DHCP-сервер, настроены услуги телефонии.
+   На маршрутизаторе были настроены интерфейс Fa0/0, DHCP-сервер и услуги телефонии, все команды приведены на скринах ниже.
    
-   [<img src="https://user-images.githubusercontent.com/58363643/222966835-c350a0c6-3b74-479b-8b38-199305d3ada1.png" width="400"/>](https://user-images.githubusercontent.com/58363643/222966835-c350a0c6-3b74-479b-8b38-199305d3ada1.png)
-   [<img src="https://user-images.githubusercontent.com/58363643/222966848-7d30115b-2094-48f4-aad2-2da3d22cf4a0.png" width="400"/>](https://user-images.githubusercontent.com/58363643/222966848-7d30115b-2094-48f4-aad2-2da3d22cf4a0.png)
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_8_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_12_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_6_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_10_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_13_2024-02-18_01-06-24.jpg?raw=true" width="400" heidth = '250'> 
+</p> 
   
    Настроен vlan на коммутаторе.
    
