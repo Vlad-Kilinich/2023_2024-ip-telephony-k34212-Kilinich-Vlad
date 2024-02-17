@@ -25,7 +25,8 @@ Date of finished: - <br/>
    
 <p align="center">
 <img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_3_2024-02-18_01-07-12.jpg?raw=true" width="300" heidth = '400'> 
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="300" heidth = '400'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-06-24.jpg?raw=true" width="300" heidth = '500'> 
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_4_2024-02-18_01-07-12.jpg?raw=true" width="300" heidth = '500'> 
 </p> 
    
    Была простроена следующая топология.
