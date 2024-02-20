@@ -1,7 +1,7 @@
 University: [ITMO University](https://itmo.ru/ru/) <br/>
 Faculty: [FICT](https://fict.itmo.ru) <br/>
 Course: IP-telephony <br/>
-Year: 20232/2024 <br/>
+Year: 2023/2024 <br/>
 Group: K34202 <br/>
 Author: Kilinich Vladislav <br/>
 Lab: Lab1 <br/>
