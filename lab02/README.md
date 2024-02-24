@@ -78,17 +78,87 @@ switchport voice vlan 1
 </p>  
 
 ## Часть 2.  
-1) Была простроена следующая топология.  
-   
-  
+Была простроена следующая топология.  
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab02/images/photo_5_2024-02-24_14-40-21.jpg?raw=true" width="600" heidth = '500'> 
+</p> 
+1) Создаем VLAN порты на коммутаторе для взаимо-действия коммутатора с маршрутизатором и подключаем IP телефоны.  
 
-   Далее подключаем телефоны к питанию и пытаемся дозвониться друг другу.
-   
-   <p align="center">
-<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab01/images/photo_11_2024-02-18_01-06-24.jpg?raw=true"> 
-   </p>
-  
-   
-   
+```
+vlan 10
+name data
+vlan 20
+name voice
+vlan 30
+name router
+```
+2) Интерфейсы для телефонов переведены в режим access и подключены к VLANам для телефонов и компьютеров командами:
+```
+interface range fa0/2-4
+switchport mode access
+switchport access vlan 10
+switchport voice vlan 20
+```
+А интерфейс к роутеру был переведен в режим trunk и настраиваем VLAN. Также был задан маршрут по умолчанию на сеть 192.168.2.0
+```
+interface vlan 30
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+interface fa0/1
+switchport mode trunk
+switchport trunk native vlan 30
+exit
+ip default-network 192.168.2.0 
+```
+3) Создаем саб-интерфейсы для каждого vlan:
+```
+interface FastEthernet0/0.10
+encapsulation dot1Q 10
+ip add 192.168.10.10 255.255.255.0
+no shutdown
+interface FastEthernet0/0.120
+encapsulation dot1Q 20
+ip add 192.168.20.10 255.255.255.0
+no shutdown
+interface FastEthernet0/0.30
+encapsulation dot1Q 30
+ip add 192.168.30.10 255.255.255.0
+no shutdown
+```
+4) Настраиваем DHCP для передачи голоса и данных командами:
+```
+ip dhcp excluded-address 192.168.10.10
+ip dhcp excluded-address 192.168.20.10
+ip dhcp pool data
+network 192.168.10.0 255.255.255.0
+default-router 192.168.10.10
+exit
+ip dhcp pool voice
+network 192.168.20.0 255.255.255.0
+default-router 192.168.20.10
+option 150 ip 192.168.20.10
+```  
+5) После этого подключаем телефоны и создаем сервис ip-телефонии.
+```
+telephony-service
+max-dn 3
+max-ephones 3
+ip source-address 192.168.20.10 port 2000
+```  
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab02/images/photo_3_2024-02-24_14-40-21.jpg?raw=true" width="500" heidth = '400'> 
+</p>   
+6) Проверяем пинги на телефоны:  
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab02/images/photo_2_2024-02-24_14-40-21.jpg?raw=true" width="500" heidth = '400'> 
+</p>   
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab02/images/photo_1_2024-02-24_14-40-21.jpg?raw=true" width="500" heidth = '400'> 
+</p>  
+7) Проверяем пинги на компьютеры:
+<p align="center">
+<img src="https://github.com/Vlad-Kilinich/2023_2024-ip-telephony-k34212-Kilinich-Vlad/blob/main/lab02/images/photo_4_2024-02-24_14-40-21.jpg?raw=true" width="500" heidth = '400'> 
+</p>  
+
 ## Выводы: ##
-В ходе лабораторной работы была построена топология сети, назначены IP-адреса и настроена IP-телефония.
+В ходе лабораторной работы были построены схемы сети IP-телефонии и настроены устройства, в результате чего успешно установили связь между IP-телефонами в первой части. Во второй части – еще и между компьютерами.
